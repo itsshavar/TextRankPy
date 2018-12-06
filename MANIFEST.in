@@ -1,0 +1,4 @@
+include README.rst
+include changelog.txt
+include textrankpy/stop.txt
+
