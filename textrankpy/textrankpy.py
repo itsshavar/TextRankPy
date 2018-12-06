@@ -305,9 +305,9 @@ def build_graph (json_iter):
                     graph.add_node(word_id)
 
             if "edge" in dir(graph):
-				graph.edge[pair[0]][pair[1]]["weight"] += 1.0
-			else:
-				graph.add_edge(pair[0], pair[1], weight=1.0)
+                graph.edge[pair[0]][pair[1]]["weight"] += 1.0
+            else:
+                graph.add_edge(pair[0], pair[1], weight=1.0)
 
     return graph
 
